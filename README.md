@@ -17,4 +17,4 @@ The overall run time complexity should be `O(log(m+n))`.
 
 ---
 
-[Solution.kt](app/src/main/kotlin/org/tessier/ashpool/leetcode/leetcode/Solution.kt)
+[Solution_004.kt](app/src/main/kotlin/org/tessier/ashpool/leetcode/leetcode/Solution_004.kt)
