@@ -1,4 +1,4 @@
-package org.tessier.ashpool.leetcode.leetcode.solution
+package org.tessier.ashpool.leetcode.solution
 
 
 class Solution_004 {
