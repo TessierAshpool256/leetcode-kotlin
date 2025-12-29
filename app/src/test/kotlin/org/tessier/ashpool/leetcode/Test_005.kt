@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import org.tessier.ashpool.leetcode.solution.Solution_005
 
 
-class MainTest {
+class Test_005 {
     val solution = Solution_005()
 
     @Test
