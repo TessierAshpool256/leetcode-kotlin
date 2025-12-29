@@ -2,25 +2,19 @@ package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.tessier.ashpool.leetcode.leetcode.Solution
+import org.tessier.ashpool.leetcode.solution.Solution_005
 
 
-class MainTest {
-    val solution = Solution()
+class Test_005 {
+    val solution = Solution_005()
 
     @Test
     fun `Example 1`() {
-        val nums1 = intArrayOf(1, 3)
-        val nums2 = intArrayOf(2)
-
-        assertEquals(solution.findMedianSortedArrays(nums1, nums2), 2.0)
+        assertEquals(solution.longestPalindrome("babad"), "bab")
     }
 
     @Test
     fun `Example 2`() {
-        val nums1 = intArrayOf(1, 2)
-        val nums2 = intArrayOf(3, 4)
-
-        assertEquals(solution.findMedianSortedArrays(nums1, nums2), 2.5)
+        assertEquals(solution.longestPalindrome("cbbd"), "bb")
     }
 }
