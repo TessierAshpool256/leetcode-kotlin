@@ -10,17 +10,11 @@ class MainTest {
 
     @Test
     fun `Example 1`() {
-        val nums1 = intArrayOf(1, 3)
-        val nums2 = intArrayOf(2)
-
-        assertEquals(solution.findMedianSortedArrays(nums1, nums2), 2.0)
+        assertEquals(solution.longestPalindrome("babad"), "bab")
     }
 
     @Test
     fun `Example 2`() {
-        val nums1 = intArrayOf(1, 2)
-        val nums2 = intArrayOf(3, 4)
-
-        assertEquals(solution.findMedianSortedArrays(nums1, nums2), 2.5)
+        assertEquals(solution.longestPalindrome("cbbd"), "bb")
     }
 }

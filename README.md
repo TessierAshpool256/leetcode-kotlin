@@ -1,19 +1,14 @@
-## 4. Median of Two Sorted Arrays
+## 5. Longest Palindromic Substring
 
-<span style="color:red">Hard</span>
+<span style="color:orange">Medium</span>
 
 ---
 ### En
-Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median 
-of the two sorted arrays.
-
-The overall run time complexity should be `O(log(m+n))`.
+Given a string `s`, return the longest palindromic substring in `s`.
 
 ---
 ### Ru
-Даны два отсортированных массива `nums1` и `nums2` размеров `m` и `n` соответственно. Требуется вернуть медиану объединения этих двух массивов.
-
-Общая сложность алгоритма должна быть `O(log(m+n))`.
+Дана строка `s`. Необходимо вернуть самую длинную палиндромную подстроку строки`s`.
 
 ---
 
