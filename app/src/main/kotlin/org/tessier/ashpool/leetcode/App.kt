@@ -1,11 +1,13 @@
-package org.tessier.ashpool.leetcode.leetcode
+package org.tessier.ashpool.leetcode
+
+import org.tessier.ashpool.leetcode.solution.Solution_005
 
 
 @Suppress("MagicNumber")
 fun main() {
     val s = "babad"
 
-    val solution =  Solution()
+    val solution = Solution_005()
 
     println(s)
     println("Solution: bab")

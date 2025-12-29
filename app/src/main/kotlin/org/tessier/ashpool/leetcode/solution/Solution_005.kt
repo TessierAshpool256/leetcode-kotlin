@@ -1,7 +1,7 @@
-package org.tessier.ashpool.leetcode.leetcode
+package org.tessier.ashpool.leetcode.solution
 
 
-class Solution {
+class Solution_005 {
     private var maxLen = 0
     private var start = 0
 

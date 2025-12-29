@@ -2,11 +2,11 @@ package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.tessier.ashpool.leetcode.leetcode.Solution
+import org.tessier.ashpool.leetcode.solution.Solution_005
 
 
-class MainTest {
-    val solution = Solution()
+class Test_005 {
+    val solution = Solution_005()
 
     @Test
     fun `Example 1`() {

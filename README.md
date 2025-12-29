@@ -1,15 +1,2 @@
-## 5. Longest Palindromic Substring
 
-<span style="color:orange">Medium</span>
-
----
-### En
-Given a string `s`, return the longest palindromic substring in `s`.
-
----
-### Ru
-Дана строка `s`. Необходимо вернуть самую длинную палиндромную подстроку строки`s`.
-
----
-
-[Solution.kt](app/src/main/kotlin/org/tessier/ashpool/leetcode/leetcode/Solution.kt)
+[005.md](problems/005.md)
