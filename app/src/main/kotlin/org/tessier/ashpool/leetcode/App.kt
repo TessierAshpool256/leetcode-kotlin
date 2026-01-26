@@ -1,18 +1,19 @@
 package org.tessier.ashpool.leetcode
 
-import org.tessier.ashpool.leetcode.solution.Solution_005
+import org.tessier.ashpool.leetcode.solution.Solution_006
 
 
 @Suppress("MagicNumber")
 fun main() {
-    val s = "babad"
+    val s = "PAYPALISHIRING"
+    val numRows = 3
 
-    val solution = Solution_005()
+    val solution = Solution_006()
 
     println(s)
-    println("Solution: bab")
+    println("\n===\nSolution: \nPAHNAPLSIIGYIR")
 
-    val result = solution.longestPalindrome(s)
+    val result = solution.convert(s, numRows)
 
     println(result)
 }
