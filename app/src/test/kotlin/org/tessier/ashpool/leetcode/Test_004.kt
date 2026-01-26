@@ -2,7 +2,7 @@ package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.tessier.ashpool.leetcode.leetcode.solution.Solution_004
+import org.tessier.ashpool.leetcode.solution.Solution_004
 
 
 class Test_004 {

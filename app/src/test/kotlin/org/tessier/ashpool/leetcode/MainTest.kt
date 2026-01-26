@@ -2,19 +2,29 @@ package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.tessier.ashpool.leetcode.solution.Solution_005
 
 
 class MainTest {
-    val solution = Solution_005()
+    val solution = Solution_006()
 
     @Test
     fun `Example 1`() {
-        assertEquals(solution.longestPalindrome("babad"), "bab")
+        val s = "PAYPALISHIRING"
+        val numRows = 3
+        assertEquals(solution.convert(s, numRows), "PAHNAPLSIIGYIR")
     }
 
     @Test
     fun `Example 2`() {
-        assertEquals(solution.longestPalindrome("cbbd"), "bb")
+        val s = "PAYPALISHIRING"
+        val numRows = 4
+        assertEquals(solution.convert(s, numRows), "PINALSIGYAHRPI")
+    }
+
+    @Test
+    fun `Example 3`() {
+        val s = "A"
+        val numRows = 1
+        assertEquals(solution.convert(s, numRows), "A")
     }
 }
