@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test
 import org.tessier.ashpool.leetcode.solution.Solution_007
 
 
-class MainTest {
+class Test_007 {
     val solution = Solution_007()
 
     @Test
@@ -24,5 +24,23 @@ class MainTest {
     fun `Example 3`() {
         val x = 120
         assertEquals(solution.reverse(x), 21)
+    }
+
+    @Test
+    fun `Example 4`() {
+        val x = 1534236469
+        assertEquals(solution.reverse(x), 0)
+    }
+
+    @Test
+    fun `Example 5`() {
+        val x = -2147483412
+        assertEquals(solution.reverse(x), -2143847412)
+    }
+
+    @Test
+    fun `Example 6`() {
+        val x = 1563847412
+        assertEquals(solution.reverse(x), 0)
     }
 }
