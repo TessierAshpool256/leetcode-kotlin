@@ -1,4 +1,5 @@
 
-[004.md](problems/004.md)
-
-[005.md](problems/005.md)
+[004](problems/004.md), 
+[005](problems/005.md),
+[006](problems/006.md),
+[007](problems/007.md)
