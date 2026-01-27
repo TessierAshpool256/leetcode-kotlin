@@ -1,6 +1,7 @@
 package org.tessier.ashpool.leetcode.solution
 
 
+@Suppress("ClassNaming")
 class Solution_005 {
     private var maxLen = 0
     private var start = 0

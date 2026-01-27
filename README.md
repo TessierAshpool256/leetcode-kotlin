@@ -1,6 +1,6 @@
-| Number                  | Name                          | Level                                    |
-|-------------------------|-------------------------------|------------------------------------------|
-| [004](problems/004.md) | Median of Two Sorted Arrays   | <span style="color:red">Hard</span>      |
-| [005](problems/005.md) | Longest Palindromic Substring | <span style="color:orange">Medium</span> |
-| [006](problems/006.md) | Zigzag Conversion             | <span style="color:orange">Medium</span> |
-| [007](problems/007.md) | Reverse Integer               | <span style="color:orange">Medium</span> |
+| Number                  | Name                                                                                                       | Level                                    |
+|-------------------------|------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| [004](problems/004.md) | [Median of Two Sorted Arrays](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_004.kt)   | <span style="color:red">Hard</span>      |
+| [005](problems/005.md) | [Longest Palindromic Substring](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_005.kt) | <span style="color:orange">Medium</span> |
+| [006](problems/006.md) | [Zigzag Conversion](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_006.kt)             | <span style="color:orange">Medium</span> |
+| [007](problems/007.md) | [Reverse Integer](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_007.kt)               | <span style="color:orange">Medium</span> |

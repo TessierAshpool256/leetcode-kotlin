@@ -3,7 +3,7 @@ package org.tessier.ashpool.leetcode.solution
 import kotlin.math.abs
 
 
-@Suppress("MagicNumber")
+@Suppress("MagicNumber", "ClassNaming")
 class Solution_007 {
 
     fun reverse(x: Int): Int {
