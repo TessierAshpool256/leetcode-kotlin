@@ -2,7 +2,6 @@ package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-import org.tessier.ashpool.leetcode.solution.Solution_007
 import org.tessier.ashpool.leetcode.solution.Solution_008
 
 
@@ -11,37 +10,61 @@ class Test_008 {
 
     @Test
     fun `Example 1`() {
-        val x = 123
-        assertEquals(solution.reverse(x), 321)
+        val s = "42"
+        assertEquals(solution.myAtoi(s), 42)
     }
 
     @Test
     fun `Example 2`() {
-        val x = -123
-        assertEquals(solution.reverse(x), -321)
+        val s = " -042"
+        assertEquals(solution.myAtoi(s), -42)
     }
 
     @Test
     fun `Example 3`() {
-        val x = 120
-        assertEquals(solution.reverse(x), 21)
+        val s = "1337c0d3"
+        assertEquals(solution.myAtoi(s), 1337)
     }
 
     @Test
     fun `Example 4`() {
-        val x = 1534236469
-        assertEquals(solution.reverse(x), 0)
+        val s = "0-1"
+        assertEquals(solution.myAtoi(s), 0)
     }
 
     @Test
     fun `Example 5`() {
-        val x = -2147483412
-        assertEquals(solution.reverse(x), -2143847412)
+        val s = "words and 987"
+        assertEquals(solution.myAtoi(s), 0)
     }
 
     @Test
     fun `Example 6`() {
-        val x = 1563847412
-        assertEquals(solution.reverse(x), 0)
+        val s = "-91283472332"
+        assertEquals(solution.myAtoi(s), -2147483648)
+    }
+
+    @Test
+    fun `Example 7`() {
+        val s = ""
+        assertEquals(solution.myAtoi(s), 0)
+    }
+
+    @Test
+    fun `Example 8`() {
+        val s = "-"
+        assertEquals(solution.myAtoi(s), 0)
+    }
+
+    @Test
+    fun `Example 9`() {
+        val s = "2147483646"
+        assertEquals(solution.myAtoi(s), 2147483646)
+    }
+
+    @Test
+    fun `Example 10`() {
+        val s = "2147483648"
+        assertEquals(solution.myAtoi(s), 2147483647)
     }
 }

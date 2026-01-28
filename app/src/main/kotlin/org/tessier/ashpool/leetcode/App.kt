@@ -1,19 +1,15 @@
 package org.tessier.ashpool.leetcode
 
-import org.tessier.ashpool.leetcode.solution.Solution_006
+import org.tessier.ashpool.leetcode.solution.Solution_008
 
 
 @Suppress("MagicNumber")
 fun main() {
-    val s = "PAYPALISHIRING"
-    val numRows = 3
+    val s = "  42"
 
-    val solution = Solution_006()
+    val solution = Solution_008()
 
-    println(s)
-    println("\n===\nSolution: \nPAHNAPLSIIGYIR")
-
-    val result = solution.convert(s, numRows)
+    val result = solution.myAtoi(s)
 
     println(result)
 }
