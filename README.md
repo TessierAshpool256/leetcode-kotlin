@@ -5,4 +5,5 @@
 | [006](problems/006.md) | [Zigzag Conversion](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_006.kt)             | <span style="color:orange">Medium</span>   |
 | [007](problems/007.md) | [Reverse Integer](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_007.kt)               | <span style="color:orange">Medium</span>   |
 | [008](problems/008.md) | [String to Integer (atoi)](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_008.kt)      | <span style="color:orange">Medium</span>   |
-| [009](problems/009.md) | [Palindrome Number](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_009.kt)      | <span style="color:lightgreen">Easy</span> |
+| [009](problems/009.md) | [Palindrome Number](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_009.kt)             | <span style="color:lightgreen">Easy</span> |
+| [010](problems/010.md) | [Regular Expression Matching](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_010.kt)             | <span style="color:red">Hard</span>                                                                        |
