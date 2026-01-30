@@ -1,15 +1,15 @@
 package org.tessier.ashpool.leetcode
 
-import org.tessier.ashpool.leetcode.solution.Solution_008
+import org.tessier.ashpool.leetcode.solution.Solution_009
 
 
 @Suppress("MagicNumber")
 fun main() {
-    val s = "  42"
+    val x = 121
 
-    val solution = Solution_008()
+    val solution = Solution_009()
 
-    val result = solution.myAtoi(s)
+    val result = solution.isPalindrome(x)
 
     println(result)
 }
