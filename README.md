@@ -1,10 +1,10 @@
-| Number                    | Name                                                                                                       | Level                                             |
-|---------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| [004](problems/00/004.md) | [Median of Two Sorted Arrays](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_004.kt)   | <span style="color:red">Hard</span>               |
-| [005](problems/00/005.md) | [Longest Palindromic Substring](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_005.kt) | <span style="color:orange">Medium</span>          |
-| [006](problems/00/006.md) | [Zigzag Conversion](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_006.kt)             | <span style="color:orange">Medium</span>          |
-| [007](problems/00/007.md) | [Reverse Integer](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_007.kt)               | <span style="color:orange">Medium</span>          |
-| [008](problems/00/008.md) | [String to Integer (atoi)](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_008.kt)      | <span style="color:orange">Medium</span>          |
-| [009](problems/00/009.md) | [Palindrome Number](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_009.kt)             | <span style="color:lightgreen">Easy</span>        |
-| [010](problems/00/010.md) | [Regular Expression Matching](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_010.kt)   | <span style="color:red">Hard</span>               |
-| [011](problems/011.md)    | [Container With Most Water](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_011.kt)     | <span style="color:orange">Medium</span>          |
+| Number                    | Name                                                                                                                  | Level                                            |
+|---------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [004](problems/00/004.md) | [Median of Two Sorted Arrays](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_004.kt)  | <span style="color:red">Hard</span>              |
+| [005](problems/00/005.md) | [Longest Palindromic Substring](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_005.kt) | <span style="color:orange">Medium</span>         |
+| [006](problems/00/006.md) | [Zigzag Conversion](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_006.kt)            | <span style="color:orange">Medium</span>         |
+| [007](problems/00/007.md) | [Reverse Integer](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_007.kt)              | <span style="color:orange">Medium</span>         |
+| [008](problems/00/008.md) | [String to Integer (atoi)](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_008.kt)     | <span style="color:orange">Medium</span>         |
+| [009](problems/00/009.md) | [Palindrome Number](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_00/Solution_009.kt)            | <span style="color:lightgreen">Easy</span>       |
+| [010](problems/010.md) | [Regular Expression Matching](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_010.kt)   | <span style="color:red">Hard</span>              |
+| [011](problems/011.md)    | [Container With Most Water](app/src/main/kotlin/org/tessier/ashpool/leetcode/solution/Solution_011.kt)     | <span style="color:orange">Medium</span>         |

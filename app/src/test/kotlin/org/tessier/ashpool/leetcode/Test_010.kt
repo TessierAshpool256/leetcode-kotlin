@@ -1,4 +1,4 @@
-package org.tessier.ashpool.leetcode.test_00
+package org.tessier.ashpool.leetcode
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
